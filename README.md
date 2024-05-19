@@ -6,7 +6,7 @@ This package is a work in progress.
 
 It can be used to defined API schemas, validate incoming data, and generate API documentation compatible with any API framework.
 
-It's not only intended to model REST APIs, but also any other form of API, such as GraphQL, internal services (like an API for async job queues), or even a simple CLI. Forcing consumers of the API to confirm to the schema leveraging TypeScript's type system, and validating procedure calls and responses to ensure the consumer and the provider conform to the agreed upon contact.
+It's not only intended to model REST APIs, but also any other form of API, such as GraphQL, internal services (like an API for async job queues), or even a simple CLI. Forcing consumers of the API to conform a schema, leveraging TypeScript's type system, and validating runtime calls and responses to ensure the consumer and the provider conform to the agreed upon contact.
 
 ## How to use
 
