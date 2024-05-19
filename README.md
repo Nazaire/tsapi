@@ -55,7 +55,7 @@ import { createController } from "tsapi";
 import { MyAPI } from "./contract.js";
 
 // Define the controller
-const controller = createController(API, {
+const controller = createController(MyAPI, {
   // Implement the `test` procedure
   test: async (input) => {
     // input is automatically typed as { foo: string }
