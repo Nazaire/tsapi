@@ -105,6 +105,7 @@ The `tsapi/core` package is designed to be a foundation that is composible and e
 - `tsapi/core` - The core package, providing the basic API schema and controller functionality.
 - `tsapi/express` - A utility that can create an Express.js router from the API schema.
 - `tsapi/openapi` - A utility to generate OpenAPI documentation from the API schema.
+- `tsapi/client` - A utility to generate a client library from the API schema. Technically, we could export the API contract object to a remote and use it to generate a http client.
 
 The core package is designed to be extensible, allowing plugins to extend the `Contract` type. For example to add OpenAPI support, you can extend the `Contract` type to include OpenAPI metadata and conform to the OpenAPI schema.
 
