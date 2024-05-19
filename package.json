@@ -1,0 +1,7 @@
+{
+  "name": "tsapi",
+  "packageManager": "yarn@4.2.2",
+  "workspaces": [
+    "packages/*"
+  ]
+}
