@@ -25,6 +25,7 @@ export const MyAPI = {
     // the output schema
     output: z.object({ bar: z.string() }),
   },
+  // important! this line is required to satisfy the Contract type
 } satisfies Contract;
 
 export type MyAPI = typeof MyAPI;
