@@ -38,13 +38,13 @@ export type MyAPI = typeof MyAPI;
  * Input type for the `test` procedure.
  * { foo: string }
  */
-type TestInput = ProcedureInputType<API["test"]>;
+type TestInput = ProcedureInputType<MyAPI["test"]>;
 
 /**
  * Output type for the `test` procedure.
  * { bar: string }
  */
-type TestOutput = ProcedureOutputType<API["test"]>;
+type TestOutput = ProcedureOutputType<MyAPI["test"]>;
 ```
 
 Then, you can build off the contract to create a controller which implements the procedures for the contract.
